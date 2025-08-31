@@ -1,20 +1,17 @@
-<<<<<<< HEAD
-# smart-iot-hmi-system
-Iot based smart thermostat with real time HMI and Cloud connectivity
-=======
-# Smart IoT Thermostat - Embedded Systems Portfolio
+Smart IoT Thermostat (Simulation)
 
-## Project Overview
-IoT-based smart home thermostat with real-time HMI interface and cloud connectivity.
+A software-only IoT thermostat system that simulates temperature/humidity sensors, HVAC control logic, a Human-Machine Interface (HMI) GUI, and MQTT-based IoT communication — without requiring physical hardware.
 
-## Technologies
-- **Embedded Systems**: ESP32, sensors, real-time control
-- **IoT**: MQTT, WiFi, cloud protocols  
-- **HMI**: Touch interface, responsive design
-- **Cloud**: Data analytics, remote monitoring
+This project demonstrates key skills in IoT, embedded UX, real-time control, and data visualization, making it an excellent reference for embedded systems / IoT portfolios.
 
-## Project Goals
-Demonstrate end-to-end IoT system development for automotive industry applications.
+🚀 Features
 
+🌡️ Simulated Sensors → Randomized temperature & humidity data.
 
->>>>>>> 6e375b2d3866c93475dfdeb6bd1b3309f7ee4335
+⚙️ HVAC Control Logic → Simple feedback loop (heating/cooling based on setpoint).
+
+💻 GUI (HMI) → Tkinter interface showing real-time sensor values & system state.
+
+📡 IoT Communication → Local MQTT broker (Mosquitto) for pub/sub simulation.
+
+📊 Data Logging & Visualization → Store readings and plot historical data.
